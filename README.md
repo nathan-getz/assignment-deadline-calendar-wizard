@@ -3,7 +3,7 @@
 This JS script takes an input CSV file and outputs an ICS file.
 
 # CSV Format
-Fill out the [a relative link](Template.csv) file according to each field (column) in its header. The header row doesn't need to be deleted, as the 1st record (row) is omitted when the file is processed. This means you should put the your 1st entry in the 2nd record.
+Fill out the [template file](Template.csv) according to each field (column) in its header. The header row doesn't need to be deleted, as the 1st record (row) is omitted when the file is processed. This means you should put the your 1st entry in the 2nd record.
 Each record should be as follows:
 
 `Course`,`Assignment`,`Date`,`Time`,`URL`
